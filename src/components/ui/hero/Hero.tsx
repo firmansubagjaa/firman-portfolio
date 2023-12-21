@@ -57,9 +57,7 @@ const Hero = () => {
               opportunities
             </motion.p>
           </div>
-          <div>
-            <Button>Let's get started</Button>
-          </div>
+          <Button>Let's get started</Button>
         </div>
         <div className="order-first lg:order-last">
           <motion.div

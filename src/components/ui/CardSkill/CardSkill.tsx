@@ -3,7 +3,10 @@ import TableStacks from "./TableStacks";
 
 const CardSkill = () => {
   return (
-    <section className="flex flex-col mt-20 bg-gray-900 w-full gap-12 items-center h-[100vh]">
+    <section
+      id="skills"
+      className="flex flex-col mt-20 bg-gray-900 w-full gap-12 items-center h-[100vh]"
+    >
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
