@@ -101,7 +101,7 @@ const Projects: React.FC = () => {
                         </button>
                       </Link>
                       <Link to={item.url} target="_blank" rel="noreferrer">
-                        <button className="w-full bg-gray-600 hover:bg-red-400 active:bg-red-600 transition ease-in-out duration-300 px-5 py-3 rounded-lg flex justify-center items-center gap-2">
+                        <button className="w-full bg-gray-600 hover:bg-gray-400 active:bg-gray-700 transition ease-in-out duration-300 px-5 py-3 rounded-lg flex justify-center items-center gap-2">
                           <GitHub />
                           GitHub
                         </button>
