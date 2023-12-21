@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Hiring Jobs",
+    "img": "../src/assets/png/hiring-jobs.png",
+    "url": "https://hiring-app-fe-eight.vercel.app/",
+    "github": "https://github.com/teko-tech-project-team/hiring-app-fe",
+    "status": "Done"
+  },
+  {
+    "id": 2,
+    "title": "QuantumGoods",
+    "img": "../src/assets/png/quantumgoods.png",
+    "url": "https://quantumgoods.vercel.app/",
+    "github": "https://github.com/firmansubagjaa/quantumgoods",
+    "status": "Done"
+  },
+  {
+    "id": 3,
+    "title": "Tickitz",
+    "img": "../src/assets/png/tickitz.png",
+    "url": "https://tickitz-stringify.vercel.app/",
+    "github": "https://github.com/firmansubagjaa/Tickitz-FE",
+    "status": "Done"
+  },
+  {
+    "id": 4,
+    "title": "Kopi Teduh",
+    "img": "https://picsum.photos/200/300",
+    "url": "https://kopi-teduh.vercel.app/",
+    "github": "https://github.com/firmansubagjaa/kopi-teduh",
+    "status": "In Progress"
+  }
+]
