@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import * as React from "react";
 import { RouterProvider } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import router from "./routes/route";
