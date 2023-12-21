@@ -1,10 +1,10 @@
 import * as React from "react";
 import { useKeenSlider } from "keen-slider/react";
-import "keen-slider/keen-slider.min.css";
-import listProjects from "./listProjects.json";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { GitHub } from "react-feather";
+import { GitHub, Globe } from "react-feather";
+import "keen-slider/keen-slider.min.css";
+import listProjects from "./listProject";
 
 const Projects: React.FC = () => {
   const [sliderRef] = useKeenSlider(
@@ -54,7 +54,7 @@ const Projects: React.FC = () => {
     ]
   );
   return (
-    <section id="projects" className="h-full py-28 text-gray-100">
+    <section id="projects" className="h-full py-10 text-gray-100">
       <div className="container flex flex-col gap-5">
         <div>
           <h2 className="text-3xl font-bold">Projects</h2>
@@ -78,7 +78,7 @@ const Projects: React.FC = () => {
                       className="w-full h-[700px] object-cover"
                     />
                   </figure>
-                  <div className="p-5 flex flex-col justify-between h-full">
+                  <div className="p-5 flex flex-col gap-10 justify-between h-full">
                     <div>
                       <div className="flex justify-between">
                         <h2 className="text-2xl font-bold">{item.title}</h2>
@@ -92,11 +92,12 @@ const Projects: React.FC = () => {
                           {item.status}
                         </span>
                       </div>
-                      <p className="text-lg">Project Description</p>
+                      <p className="text-lg">{item.stack}</p>
                     </div>
                     <div className="w-full grid grid-cols-2 gap-3">
                       <Link to={item.url} target="_blank" rel="noreferrer">
-                        <button className="w-full bg-red-500 hover:bg-red-400 active:bg-red-600 transition ease-in-out duration-300 px-5 py-3 rounded-lg">
+                        <button className="w-full bg-red-500 hover:bg-red-400 active:bg-red-600 transition ease-in-out duration-300 px-5 py-3 rounded-lg flex justify-center items-center gap-2">
+                          <Globe />
                           View
                         </button>
                       </Link>

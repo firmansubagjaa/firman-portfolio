@@ -1,3 +1,5 @@
+import { Skills } from "../../../types/type";
+
 type SkillTypes = Skills[];
 
 export const frontEndSkills: SkillTypes = [

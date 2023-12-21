@@ -1,4 +1,5 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import iconMan from "../../../assets/png/man.png";
 
 interface HelmetProps {
   title: string;
@@ -15,6 +16,7 @@ const Head = ({ title }: HelmetProps) => {
           name="description"
           content="Web site created portofolio Firman Subagja"
         />
+        <link rel="icon" type="image/svg+xml" href={iconMan} />
         <title>{title} | Firman Subagja</title>
       </Helmet>
     </HelmetProvider>
