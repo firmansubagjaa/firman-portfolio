@@ -68,14 +68,14 @@ const Projects: React.FC = () => {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ duration: 0.5, delay: i * 0.3 }}
-                  className="keen-slider__slide bg-gray-800 h-full flex flex-col justify-start rounded-2xl"
+                  className="keen-slider__slide bg-gray-800 h-[35rem] lg:h-full flex flex-col justify-start rounded-2xl"
                   key={item.id}
                 >
                   <figure>
                     <img
                       src={item.img}
                       alt={item.title}
-                      className="w-full h-[700px] object-cover"
+                      className="w-full h-[300px] lg:h-[700px] object-cover"
                     />
                   </figure>
                   <div className="p-5 flex flex-col gap-10 justify-between h-full">

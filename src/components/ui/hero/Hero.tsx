@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import Avatar from "../../../assets/png/man.png";
-import Button from "../button/Button";
 
 const Hero = () => {
   return (
@@ -57,7 +56,6 @@ const Hero = () => {
               opportunities
             </motion.p>
           </div>
-          <Button>Let's get started</Button>
         </div>
         <div className="order-first lg:order-last">
           <motion.div

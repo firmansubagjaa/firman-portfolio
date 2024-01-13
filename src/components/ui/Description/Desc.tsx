@@ -50,35 +50,37 @@ const Desc = () => {
         </div>
         <div>
           <p>
-            Hello, my name is Firman Subagja, you can call me Firman. I
-            graduated from D3 Telecommunications Technology at the most famous
-            private university in southern Bandung, namely Telkom University
-            from 2017 to 2021. for now I live in the city of Bandung
+            Hello, my name is Firman Subagja, you can call me Firman. I am a D3
+            Telecommunication Technology graduate from Telkom University, a
+            well-known private university in South Bandung. I graduated in 2021
+            and I currently live in the city of Bandung.
           </p>
         </div>
         <div>
           <p>
-            He have participated in an internship at the IT Consultant company,
-            Sagara Technology. There I have worked on internal company projects
-            where they have collaborated with Telkom University to hold
-            Competency Certification and finally trusted by Sagara Technology as
-            an assessor. And the other side I help to work on Client Projects
-            with a team consisting of Project Manager, Front End Developer, and
-            Back End Developer.
+            I had an internship at an IT Consultant company, Sagara Technology,
+            for six months. There, I was involved in internal company projects,
+            such as creating a website for competency certification in
+            collaboration with Telkom University. I was also trusted as an
+            assessor in the certification process. In addition, I also helped
+            work on client projects with a team consisting of a Project Manager,
+            Front End Developer, and Back End Developer. From this internship, I
+            learned a lot about web development, both in terms of design,
+            function, and management. Translated with www.DeepL.com/Translator
+            (free version)
           </p>
         </div>
         <div>
           <p>
-            From all the learning from the internship, I still want to focus on
-            the realm of Web Development, especially in Front End Developer and
-            Back End Developer because this is my passion, I want to realize my
-            dreams even though there are many obstacles and ready to print
-            collaboration from companies that will accept me by producing the
-            desired output.
+            Web development is a field that I am very interested in and want to
+            focus on. I have expertise in HTML, CSS, and JavaScript, I can also
+            use several frameworks and tools, such as ReactJS, NextJS,
+            TailwindCSS, etc. I enjoy creating attractive, responsive, and
+            user-friendly websites. I want to realize my dream of becoming a
+            professional web developer despite many challenges and obstacles. I
+            am ready to work with companies that are willing to accept me and
+            produce outputs that are in accordance with their wishes.
           </p>
-        </div>
-        <div>
-          <Button>Details</Button>
         </div>
       </div>
     </motion.section>
