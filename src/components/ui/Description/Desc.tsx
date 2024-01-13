@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import Avatar from "../../../assets/jpg/Avatar2-asset.jpg";
-import Button from "../button/Button";
 
 const Desc = () => {
   return (
