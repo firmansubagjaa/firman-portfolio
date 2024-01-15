@@ -65,8 +65,7 @@ const Desc = () => {
             work on client projects with a team consisting of a Project Manager,
             Front End Developer, and Back End Developer. From this internship, I
             learned a lot about web development, both in terms of design,
-            function, and management. Translated with www.DeepL.com/Translator
-            (free version)
+            function, and management.
           </p>
         </div>
         <div>
